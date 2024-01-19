@@ -26,29 +26,3 @@ categories:
     url: /categories/categories3/
   - title: "Categories4"
     url: /categories/categories4/
-
-# main links
-main:
-  - title: "Home"
-    url: https://minUkiki.github.io/
-
-  - title: "GitHub"
-    url: https://github.com/MinUkiki
-
-  - title: "About"
-    url: _pages/about.md
-    
-	@@ -18,17 +15,13 @@ main:
-# sidebar navigation (categories)
-# 2022.02.15 sidebar update : simple ver.
-categories:
-  - title: "Python"
-    url: /categories/python/
-  - title: "Algorithm"
-    url: /categories/algorithm/
-  - title: "GitHub"
-    url: /categories/github/
-  - title: "AI"
-    url: /categories/ai/
-  - title: "Other"
-    url: /categories/other/
