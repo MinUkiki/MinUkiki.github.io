@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://MinUkiki.github.io/sitemap.xml
+Sitemap: https://minukiki.github.io/sitemap.xml
