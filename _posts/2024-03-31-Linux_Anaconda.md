@@ -24,9 +24,11 @@ apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxc
 ```
 curl -O https://repo.anaconda.com/archive/Anaconda3-<INSTALLER_VERSION>-Linux-x86_64.sh
 ```
-<INSTALLER_VERSION>은 [버전 목록](https://repo.anaconda.com/archive/)에서 원하는 버전을 선택한다
+INSTALLER_VERSION은 [버전 목록](https://repo.anaconda.com/archive/)에서 원하는 버전을 선택한다
 
-예) `curl -O https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh`
+예)
+
+`curl -O https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh`
 
 ```
 bash ~/Downloads/Anaconda3-<INSTALLER_VERSION>-Linux-x86_64.sh
