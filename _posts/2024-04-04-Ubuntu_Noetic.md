@@ -48,3 +48,49 @@ curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo ap
 
 - 이 키는 저장소에서 패키지를 안전하게 다운로드하기 위해 사용
 
+4. ROS 설치
+
+```
+sudo apt update
+
+sudo apt install ros-noetic-desktop-full
+```
+
+- ROS Noetic Desktop-Full 패키지를 설치
+
+- 이 패키지는 ROS의 주요 컴포넌트와 도구, 라이브러리 등을 포함하고 있어서 일반적으로 사용되는 모든 기능을 제공
+
+5. ROS 환경 설정
+
+```
+echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+
+source ~/.bashrc
+```
+
+- ROS 환경 설정을 자동으로 로드하기 위해 ~/.bashrc 파일에 ROS 환경 설정을 추가
+
+- 매번 터미널을 열 때마다 ROS 환경이 자동으로 설정
+
+6. 의존성 패키지 설치
+
+```
+sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+```
+
+- ROS를 사용하기 위해 필요한 추가적인 패키지를 설치
+
+- 이 패키지들은 ROS를 사용하는 데 필요한 도구와 라이브러리를 포함
+
+7. rosdep 초기화
+
+```
+sudo rosdep init
+
+rosdep update
+```
+
+- ROS의 의존성 패키지 관리자를 초기화하고 업데이트 
+
+- ROS 패키지를 빌드하고 실행하는 데 필요한 모든 의존성 패키지를 관리할 수 있음
+
