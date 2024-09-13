@@ -39,6 +39,7 @@ Ananconda 사이트에 접속 [here](https://www.anaconda.com/)
 - anaconda_prompt 실행
 
 - 가상환경 생성 및 활성화 ( anaconda navigator에서도 만들 수 있음 )
+
 ```
 conda create -n [가상환경이름] python=3.11.9
 
